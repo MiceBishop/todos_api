@@ -52,3 +52,12 @@ group :test do
   gem 'faker'
   gem 'shoulda-matchers', '~> 3.1'
 end
+
+#RailsAdmin
+gem 'rails_admin', '~> 1.0'
+
+# Secure passwords
+gem 'bcrypt', '~> 3.1.7'
+
+#json web token
+gem 'jwt'
